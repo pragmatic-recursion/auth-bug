@@ -17,6 +17,7 @@
     "cf-typegen": "wrangler types && mv worker-configuration.d.ts src/"
   },
   "devDependencies": {
+    "@auth/sveltekit": "^1.6.0",
     "@cloudflare/workers-types": "^4.20241004.0",
     "@playwright/test": "^1.28.1",
     "@sveltejs/adapter-auto": "^3.0.0",
